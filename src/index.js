@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { applyMiddleware, createStore } from 'redux';
 import createSagaMiddleware from 'redux-saga';
 import App from './App';
@@ -29,6 +29,7 @@ ReactDOM.render(
             <Route path="articles/:slug" element={<Article />} />
             <Route path="search" element={<Search />} />
           </Route>
+          <Route path="/news-portal" element={<Navigate to="/" />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>

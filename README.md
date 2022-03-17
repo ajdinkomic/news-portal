@@ -1,6 +1,6 @@
 # News Portal App
 
-Working app on [https://ajdinkomic.github.io/news-portal/](https://ajdinkomic.github.io/news-portal/).
+Live demo on [https://ajdinkomic.github.io/news-portal/](https://ajdinkomic.github.io/news-portal/).
 
 ## Running the app locally
 
